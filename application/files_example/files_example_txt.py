@@ -1,6 +1,6 @@
 from application.config.paths import FILES_OUTPUT_PATH
-from application.files_example.generetors import generate_humans
 from application.logging.loggers import get_core_logger
+from application.files_example.generetors import generate_humans
 
 
 def files_example_txt():
