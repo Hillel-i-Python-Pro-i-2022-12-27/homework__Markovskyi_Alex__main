@@ -13,4 +13,4 @@ def users_file_example_txt():
         for user in generate_users(amount=amount):
             file.write(f"{user.full_name} | {user.email};\n")
 
-    logger.info(f"\nPath to file: file://{path_to_file}\nDONE.")
+    logger.info(f"\nPath to file: file://{path_to_file}\nDONE.\n")

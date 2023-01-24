@@ -3,6 +3,7 @@
 # from application.files_example.files_example_txt import files_example_txt
 # from application.requests_example.requests_example import requests_example
 
+from application.astronauts.data_processing import astronauts_names
 from application.logging.init_logging import init_logging
 from application.users_generator.users_file_example_txt import users_file_example_txt
 
@@ -17,6 +18,7 @@ def main() -> None:
     # ---------------------------------------
 
     users_file_example_txt()
+    astronauts_names()
 
 
 if __name__ == "__main__":
