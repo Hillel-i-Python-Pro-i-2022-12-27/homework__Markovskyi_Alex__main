@@ -1,6 +1,6 @@
 <component name="ProjectRunConfigurationManager">
   <configuration default="false" name="Run app" type="PythonConfigurationType" factoryName="Python">
-    <module name="shared__python__example_2022_12_27" />
+    <module name="homework__Markovskyi_Alex__main" />
     <option name="INTERPRETER_OPTIONS" value="" />
     <option name="PARENT_ENVS" value="true" />
     <envs>
