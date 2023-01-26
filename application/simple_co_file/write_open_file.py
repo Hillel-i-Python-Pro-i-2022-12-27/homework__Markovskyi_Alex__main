@@ -6,7 +6,8 @@ def create_read_file():
     logger = get_core_logger()
     path_to_file = FILES_SPECIAL_FOLDER.joinpath("simple_file.txt")
 
-    content = input("Enter some content for file: ")
+    # content = input("Enter some content for file: ")
+    content = "Some content in simple_file.txt"
 
     text_file = open(path_to_file, mode="w")
     text_file.writelines(content)
