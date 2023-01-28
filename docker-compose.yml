@@ -8,4 +8,4 @@ services:
       - ./files_input:/wd/files_input:ro
       - ./files_output:/wd/files_output:rw
       - ./files_output:/wd/special_folder:rw
-    user: "501"
+    user: "1000"

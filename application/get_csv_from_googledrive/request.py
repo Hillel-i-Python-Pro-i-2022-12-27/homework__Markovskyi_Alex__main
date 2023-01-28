@@ -1,5 +1,5 @@
 import requests
-from application.config.paths import FILES_INPUT_PATH
+from application.config.paths import FILES_OUTPUT_PATH
 from application.logging.loggers import get_core_logger
 from application.get_csv_from_googledrive.data_processing import calculate_data
 
@@ -8,7 +8,7 @@ def requests__file_from_googledrive():
     logger = get_core_logger()
     url = "https://drive.google.com/uc?export=download&id=13nk_FYpcayUck2Ctrela5Tjt9JQbjznt"
 
-    path_to_file = FILES_INPUT_PATH.joinpath("download_file.csv")
+    path_to_file = FILES_OUTPUT_PATH.joinpath("download_file.csv")
 
     with requests.Session() as session:
         response = session.get(url)
