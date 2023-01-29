@@ -1,1 +1,1 @@
-from .greetings import greetings
+from application.greetings import greetings

@@ -9,7 +9,6 @@ from application.logging.loggers import get_core_logger
 
 def requests_example():
     logger = get_core_logger()
-    # url = "https://httpbin.org/get"
     url = "https://cataas.com/cat?json=true"
 
     path = FILES_OUTPUT_PATH.joinpath("output.json")
